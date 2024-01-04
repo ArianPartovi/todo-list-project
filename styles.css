@@ -25,7 +25,7 @@ body { /* the background image of the website */
     background-color: #444; /* sets the background color of each list */
     margin-top: 5px; /* creating space between each task that is added */
     padding: 20px; /* adds space inside the task box */
-    border-radius: 30px; /* adds a round shape edge to each corner of the task box */
+    border-radius: 60px; /* adds a round shape edge to each corner of the task box */
     cursor: pointer; /* changes the mouse cursor to a pointer when hovering over a list item */
 }
 
