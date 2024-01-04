@@ -1,4 +1,4 @@
-body {
+body { /* the background image of the website */
     background-image: url(background_image.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -10,10 +10,10 @@ body {
     
 }
 
-#todo-container {
-    width: 300px;
+#todo-container { /* the size of the task container */
+    width: 400px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 60px;
 }
 
 #todo-list {
@@ -22,11 +22,11 @@ body {
 }
 
 #todo-list li {
-    background-color: #444;
-    margin-top: 5px;
-    padding: 10px;
-    border-radius: 30px;
-    cursor: pointer;
+    background-color: #444; /* sets the background color of each list */
+    margin-top: 5px; /* creating space between each task that is added */
+    padding: 20px; /* adds space inside the task box */
+    border-radius: 30px; /* adds a round shape edge to each corner of the task box */
+    cursor: pointer; /* changes the mouse cursor to a pointer when hovering over a list item */
 }
 
 #todo-input {
